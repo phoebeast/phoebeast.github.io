@@ -1,0 +1,21 @@
+# Site settings
+title: Phoebeats
+email: your-email@domain.com
+description: The plain text recipe database for hackers
+baseurl: ""
+url: 127.0.0.1/4000/
+language: "en"
+lang_direction: "ltr"
+color: "#007FFF"
+
+# Build settings
+markdown: kramdown
+
+collections:
+  recipes:
+    output: true
+
+# Reading files
+include:
+  - _recipes
+  - assets

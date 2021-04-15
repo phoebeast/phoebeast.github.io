@@ -1,1 +1,2 @@
-# recipheebs.github.io
+# phoebeast.github.io
+A repository for favourite recipes.
