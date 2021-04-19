@@ -13,7 +13,7 @@ originalurl: https://omnivorescookbook.com/braised-chestnut-chicken/
 
 tags: dinner, chestnut, chicken
 
-Ingredients:
+ingredients:
 - 8 dried shiitake mushrooms (sliced in half)
 - 680g of chicken drumsticks, cut into 3 bite-sized pieces
 - 3 Tb light soy sauce
@@ -31,7 +31,7 @@ Ingredients:
 - Optional: 1 tsp Sichuan peppercorns
 - Optional: 1 tsp sesame oil
 
-Instructions:
+directions:
 - Add 1/2 cup of hot water to the shiitake mushrooms. Soak until it is soft throughout. Gently rub the mushrooms to remove any debris and squeeze out excess water. Cut them in halves. Reserve the soaking liquid
 - Add the cut chicken pieces and light soy sauce into a bowl. Toss to mix well and set aside
 - Boil a pot of water over high heat. For fresh chestnuts, slice the bases and boil. When cooked, peel the chestnuts and let it air dry. If using peeled frozen chestnuts, boil according to package instructions
