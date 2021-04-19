@@ -51,7 +51,7 @@ layout: default
       <!-- call up recipe and directions -->
   <div class="clearfix mt3">
 
-      <div class="sm-col-ingredients sm-col-6 lg-col-6">
+      <div class="sm-col-ingredients sm-col-6 lg-col-6 ">
           {% if page.ingredients %}
           <h3 class="grey mt0 mb2 xs-center">INGREDIENTS</h4>
           <br>
@@ -75,6 +75,23 @@ layout: default
         </div>
 
     </div>
+
+      <!-- call up recipe notes -->
+  {% if page.notes %}
+  <div class="clearfix mt3">
+      <div class="sm-col-notes sm-col-12 lg-col-12">
+        <h3 class="grey mt0 mb2 xs-center">RECIPE NOTES</h4>
+        <br>
+        <ol itemprop="recipeNotes">
+          {% for note in page.notes %}
+          <li>{{ note | markdownify }}</li>
+          {% endfor %}
+        </ul>
+
+      </div>
+
+    </div>
+  {% endif %}
 
 </article>
 
