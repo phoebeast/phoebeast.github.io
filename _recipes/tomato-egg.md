@@ -13,8 +13,8 @@ originalurl:
 
 tags: vegetarian
 
-prep-time: 5
-cooking-time: 10
+prep-time: 5 mins
+cooking-time: 10 mins
 servings: 4
 
 ingredients:
@@ -26,7 +26,7 @@ ingredients:
 - 1 tsp salt
 - Olive oil
 
-directions:
+instructions:
 - Beat the eggs in a bowl
 - Cut the tomatoes into quarters
 - Cut the garlic cloves in half and smash them

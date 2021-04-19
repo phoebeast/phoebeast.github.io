@@ -255,6 +255,7 @@ h6, .h6 { font-size: .75rem }
 .mxn4 { margin-left: -4rem; margin-right: -4rem; }
 
 .mx-auto { margin-left: auto; margin-right: auto; }
+.mx-centre { margin: auto; text-align: center; }
 .p1  { padding: .5rem }
 .py1 { padding-top: .5rem; padding-bottom: .5rem }
 .px1 { padding-left: .5rem; padding-right: .5rem }
@@ -270,6 +271,20 @@ h6, .h6 { font-size: .75rem }
 .p4  { padding: 4rem }
 .py4 { padding-top: 4rem; padding-bottom: 4rem }
 .px4 { padding-left: 4rem; padding-right: 4rem }
+
+.icon-grid {
+  display: flex;
+}
+
+.icon-grid-col {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.icon-grid-col img {
+  padding: 0.5rem
+}
 
 /* Basscss Responsive White Space */
 

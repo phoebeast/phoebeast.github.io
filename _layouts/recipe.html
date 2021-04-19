@@ -33,6 +33,29 @@ layout: default
     </header>
 
     <div class="px2 mt3 clearfix">
+      <div class="sm-col-8 mx-centre" itemprop="summary">
+        <div class="icon-grid" itemprop="icons">
+
+          <div class="icon-grid-col" itemprop="icon-wisk">
+            <img itemprop="image-wisk" src="{{site.baseurl}}/assets/images/icon-wisk.png" style="width:25% !important; height:auto !important;" />
+            <b>Prep:&nbsp;</b> {{ page.prep-time }}
+          </div>
+
+          <div class="icon-grid-col" itemprop="icon-fryingpan">
+            <img itemprop="image-fryingpan" src="{{site.baseurl}}/assets/images/icon-fryingpan.png" style="width:25% !important; height:auto !important;" />
+            <b>Cooking:&nbsp;</b> {{ page.cooking-time }}
+          </div>
+
+          <div class="icon-grid-col" itemprop="icon-servings">
+            <img itemprop="image-servings" src="{{site.baseurl}}/assets/images/icon-servings.png" style="width:25% !important; height:auto !important;" />
+            <b>Servings:&nbsp;</b> {{ page.servings }}
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="px2 mt3 clearfix">
       
       <div class="sm-col-8 mx-auto" itemprop="description">
         
