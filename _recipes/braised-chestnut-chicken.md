@@ -1,7 +1,7 @@
 ---
 
 layout: recipe
-title:  "Braised-Chestnut-Chicken"
+title:  "Braised Chestnut Chicken"
 permalink: /recipes/braised-chestnut-chicken/
 
 image: braised-chestnut-chicken.jpg
