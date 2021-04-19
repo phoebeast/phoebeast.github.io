@@ -45,7 +45,7 @@ directions:
 - Sprinkle chopped spring onions for garnish (optional: drizzle sesame oil)
 - Serve hot over steamed rice
 
-Recipe notes:
+notes:
 - If there is too much broth left but the chicken is tender, transfer the chicken to a serving bowl and keep reducing the broth over high heat until it thickens
 - Keeping the broth at a low boil instead of a simmer will help some of the oil/fat to emulsify with the broth, which yields a thick flavourful glaze at the end. If you prefer a thin broth, you will need to simmer the chicken instead
 - 
