@@ -12,7 +12,7 @@ layout: default
         {% for imagecredit in page.imagecredit %}
         <div class="blue right">
             <svg class="js-geomicon geomicon" width="14" height="14" data-icon="camera" viewBox="0 0 32 32" style="fill:currentcolor"><path d="M0 6 L8 6 L10 2 L22 2 L24 6 L32 6 L32 28 L0 28 z M9 17 A7 7 0 0 0 23 17 A7 7 0 0 0 9 17"></path></svg>
-            <a href="{{ page.imagesource }}">
+            <a href="{{ imagesource }}">
                 {{ imagecredit }}
             </a>
         </div>
@@ -51,9 +51,10 @@ layout: default
       <!-- call up recipe and directions -->
   <div class="clearfix mt3">
 
-      <div class="sm-col sm-col-6 lg-col-6">
+      <div class="sm-col-ingredients sm-col-6 lg-col-6 ">
           {% if page.ingredients %}
-          <h4 class="blue mt0 mb2 xs-center">Ingredients</h4>
+          <h3 class="grey mt0 mb2 xs-center">INGREDIENTS</h4>
+          <br>
           <ul class="checklist" itemprop="ingredients">
               <!-- list ingredients that make up recipe -->
               {% for ingredient in page.ingredients %}
@@ -63,11 +64,12 @@ layout: default
             {% endif %}
         </div>
      
-      <div class="sm-col sm-col-6 lg-col-6">
-         <h4 class="blue mt0 mb2 xs-center">Directions</h4>
+      <div class="sm-col-directions sm-col-6 lg-col-6">
+         <h3 class="grey mt0 mb2 xs-center">INSTRUCTIONS</h4>
+         <br>
          <ul class="checklist" itemprop="recipeInstructions">
-             {% for direction in page.directions %}
-             <li>{{ direction | markdownify }}</li>
+             {% for instruction in page.instructions %}
+             <li>{{ instruction | markdownify }}</li>
              {% endfor %}
             </ul>
         </div>

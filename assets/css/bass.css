@@ -1,5 +1,6 @@
 
 @import url('https://rsms.me/inter/inter-ui.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body, button { margin: 0 }
 
@@ -122,7 +123,7 @@ td { vertical-align: top }
 
 
 body {
-  font-family: 'Inter UI', Helvetica, sans-serif;
+  font-family: 'Lato', Helvetica, sans-serif;
   line-height: 1.5;
   font-size: 100%;
 }
@@ -634,6 +635,19 @@ h6, .h6 { font-size: .75rem }
   .sm-col {
     float: left;
     box-sizing: border-box;
+  }
+
+  .sm-col-ingredients {
+    float: left;
+    box-sizing: border-box;
+    background-color: #cccecf;
+    padding: 2rem 2rem;
+  }
+
+  .sm-col-directions {
+    float: left;
+    box-sizing: border-box;
+    padding: 2rem 2rem;
   }
 
   .sm-col-right {
@@ -1197,6 +1211,7 @@ input[type=range] {
 .green { color: #2ecc40 }
 .olive { color: #3d9970 }
 .lime  { color: #01ff70 }
+.grey  { color: #464c4d }
 
 .yellow  { color: #ffdc00 }
 .orange  { color: #ff851b }

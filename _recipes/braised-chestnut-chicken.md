@@ -19,7 +19,7 @@ ingredients:
 - 3 Tb light soy sauce
 - 12 chestnuts (fresh or frozen)
 - Peanut oil
-- 3 spring onions: 2 chopped into 5cm pieces and 2 finely chopped
+- "3 spring onions: 2 chopped into 5cm pieces and 2 finely chopped"
 - 3 garlic cloves, smashed
 - 2 ginger slices
 - 3 Tb Shaoxing wine
@@ -28,10 +28,10 @@ ingredients:
 - 2 Tb rock sugar (or 1 Tb regular sugar)
 - 1 star anise pod
 - 1 piece cinnamon stick (or 1 tsp ground cinnamon)
-- Optional: 1 tsp Sichuan peppercorns
-- Optional: 1 tsp sesame oil
+- "Optional: 1 tsp Sichuan peppercorns"
+- "Optional: 1 tsp sesame oil"
 
-directions:
+instructions:
 - Add 1/2 cup of hot water to the shiitake mushrooms. Soak until it is soft throughout. Gently rub the mushrooms to remove any debris and squeeze out excess water. Cut them in halves. Reserve the soaking liquid
 - Add the cut chicken pieces and light soy sauce into a bowl. Toss to mix well and set aside
 - Boil a pot of water over high heat. For fresh chestnuts, slice the bases and boil. When cooked, peel the chestnuts and let it air dry. If using peeled frozen chestnuts, boil according to package instructions
@@ -48,7 +48,5 @@ directions:
 notes:
 - If there is too much broth left but the chicken is tender, transfer the chicken to a serving bowl and keep reducing the broth over high heat until it thickens
 - Keeping the broth at a low boil instead of a simmer will help some of the oil/fat to emulsify with the broth, which yields a thick flavourful glaze at the end. If you prefer a thin broth, you will need to simmer the chicken instead
-- 
----
 
-From Angie's mom
+---
