@@ -42,7 +42,7 @@ directions:
 - Add the Shaoxing wine, dark soy sauce, kosher salt, sugar, star anise pod, cinnamon and Sichuan peppercorns. Add the cooked chestnuts with the aromatics. The liquid should cover most of the chicken but if not, add more water
 - Cook over medium-high heat until the broth comes to a low boil. Maintain cooking this uncovered for 25 minutes or until the chicken turns very tender
 - Once the cooking is done, the broth should be reduced to coat the chicken with a thin layer
-- Sprinkle chopped spring onions for garnish (optional: drizzle sesame oil)
+- Sprinkle chopped spring onions for garnish (optional to drizzle sesame oil)
 - Serve hot over steamed rice
 
 notes:
