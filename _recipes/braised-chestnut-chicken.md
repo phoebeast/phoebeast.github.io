@@ -13,9 +13,6 @@ originalurl: https://omnivorescookbook.com/braised-chestnut-chicken/
 
 tags: dinner, chestnut, chicken
 
-cooking time: 1 hour
-servings: 4
-
 Ingredients:
 - 8 dried shiitake mushrooms (sliced in half)
 - 680g of chicken drumsticks, cut into 3 bite-sized pieces
