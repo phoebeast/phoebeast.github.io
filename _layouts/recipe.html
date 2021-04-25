@@ -79,11 +79,10 @@ layout: default
   <div class="clearfix mt3 mb3">
 
       <div class="col-ingredients sm-col-6 lg-col-6 ">
-
+      <h3 class="grey mt0 mb2 xs-center">INGREDIENTS</h4>
+        <br>
           {% if page.ingredients %}
-          <h3 class="grey mt0 mb2 xs-center">INGREDIENTS</h4>
-            <br>
-
+          
           <ul class="checklist" itemprop="ingredients">
               <!-- list ingredients that make up recipe -->
               {% for ingredient in page.ingredients %}
@@ -93,16 +92,15 @@ layout: default
             {% endif %}
 
           {% if page.ingredients-subheaders %}
-          <h3 class="grey mt0 mb2 xs-center">INGREDIENTS</h4>
 
             {% for group in page.ingredients-subheaders %}
-            <br>
             <h4>{{ group.subheader }}</h4>
             <ul class="checklist" itemprop="ingredients">
               {% for ingredient in group.ingredients %}
               <li itemprop="recipeIngredient">{{ ingredient | markdownify }}</li>
               {% endfor %}
             </ul>
+            <br>
             {% endfor %}
             {% endif %}
 
