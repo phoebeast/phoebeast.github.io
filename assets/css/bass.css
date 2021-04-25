@@ -631,24 +631,25 @@ h6, .h6 { font-size: .75rem }
 .col-12 {
   width: 100%;
 }
+
+.sm-col-ingredients {
+  float: left;
+  box-sizing: border-box;
+  background-color: #cccecf;
+  padding: 2rem 2rem;
+}
+
+.sm-col-directions {
+  float: left;
+  box-sizing: border-box;
+  padding: 2rem 2rem;
+}
+
 @media (min-width: 40em) {
 
   .sm-col {
     float: left;
     box-sizing: border-box;
-  }
-
-  .sm-col-ingredients {
-    float: left;
-    box-sizing: border-box;
-    background-color: #cccecf;
-    padding: 2rem 2rem;
-  }
-
-  .sm-col-directions {
-    float: left;
-    box-sizing: border-box;
-    padding: 2rem 2rem;
   }
 
   .sm-col-right {
@@ -862,7 +863,15 @@ h6, .h6 { font-size: .75rem }
 
 /* Smaller devices (phones and tablets, 768px and below) */
 @media only screen and (max-width: 768px) {
-  .flex-icon-container { min-width: 100vw }
+  .flex-icon-container { 
+    min-width: 100vw 
+  }
+
+  .sm-col-ingredients {
+    min-width: 90vw;
+    padding: 2rem 2rem;
+  }
+
 }
 
 /* Larger devices (laptops and desktops, 768px and above) */
