@@ -1,5 +1,6 @@
 
 @import url('https://rsms.me/inter/inter-ui.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body, button { margin: 0 }
 
@@ -122,7 +123,7 @@ td { vertical-align: top }
 
 
 body {
-  font-family: 'Inter UI', Helvetica, sans-serif;
+  font-family: 'Lato', Helvetica, sans-serif;
   line-height: 1.5;
   font-size: 100%;
 }
@@ -254,6 +255,7 @@ h6, .h6 { font-size: .75rem }
 .mxn4 { margin-left: -4rem; margin-right: -4rem; }
 
 .mx-auto { margin-left: auto; margin-right: auto; }
+.mx-centre { margin: auto; text-align: center; }
 .p1  { padding: .5rem }
 .py1 { padding-top: .5rem; padding-bottom: .5rem }
 .px1 { padding-left: .5rem; padding-right: .5rem }
@@ -572,6 +574,7 @@ h6, .h6 { font-size: .75rem }
   margin-left: auto;
   margin-right: auto;
 }
+
 .col {
   float: left;
   box-sizing: border-box;
@@ -629,6 +632,20 @@ h6, .h6 { font-size: .75rem }
 .col-12 {
   width: 100%;
 }
+
+.col-ingredients {
+  float: left;
+  box-sizing: border-box;
+  background-color: #cccecf;
+  padding: 2rem 2rem;
+}
+
+.col-directions {
+  float: left;
+  box-sizing: border-box;
+  padding: 2rem 2rem;
+}
+
 @media (min-width: 40em) {
 
   .sm-col {
@@ -813,9 +830,9 @@ h6, .h6 { font-size: .75rem }
 
 }
 
+.flex { display: flex; }
 
-.flex { display: flex }
-
+.flex-row { flex-direction: row }
 .flex-column  { flex-direction: column }
 .flex-wrap    { flex-wrap: wrap }
 
@@ -826,6 +843,8 @@ h6, .h6 { font-size: .75rem }
 .flex-end      { align-items: flex-end }
 
 .flex-justify  { justify-content: space-between }
+.flex-justify-around { justify-content: space-around }
+.flex-justify-center { justify-content: center }
 
 .flex-first { order: -1 }
 .flex-last  { order: 1024 }
@@ -833,6 +852,39 @@ h6, .h6 { font-size: .75rem }
 .flex-auto { flex: 1 1 auto }
 .flex-grow { flex: 1 0 auto }
 .flex-none { flex: none }
+
+.flex-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  padding-top: 1rem;
+}
+
+/* Smaller devices (phones and tablets, 768px and below) */
+@media only screen and (max-width: 768px) {
+  .flex-icon-container { 
+    min-width: 100vw 
+  }
+
+  .sm-col-ingredients {
+    min-width: 90vw;
+    padding: 2rem 2rem;
+  }
+
+}
+
+/* Larger devices (laptops and desktops, 768px and above) */
+@media only screen and (min-width: 768px) {
+  .flex-icon-container { min-width: 10vw }
+}
+
+.flex-icon-container img {
+  width: auto;
+  height: 50%;
+  padding: 0.5rem; 
+}
 
 .flex > div { box-sizing: border-box }
 @media (min-width: 40em) {
@@ -847,7 +899,6 @@ h6, .h6 { font-size: .75rem }
   .lg-flex { display: flex }
   .lg-flex > div { box-sizing: border-box }
 }
-
 
 body {
   color: #111;
@@ -1197,6 +1248,7 @@ input[type=range] {
 .green { color: #2ecc40 }
 .olive { color: #3d9970 }
 .lime  { color: #01ff70 }
+.grey  { color: #464c4d }
 
 .yellow  { color: #ffdc00 }
 .orange  { color: #ff851b }
