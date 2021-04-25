@@ -272,20 +272,6 @@ h6, .h6 { font-size: .75rem }
 .py4 { padding-top: 4rem; padding-bottom: 4rem }
 .px4 { padding-left: 4rem; padding-right: 4rem }
 
-.icon-grid {
-  display: flex;
-}
-
-.icon-grid-col {
-  display: flex;
-  flex: 1;
-  align-items: center;
-}
-
-.icon-grid-col img {
-  padding: 0.5rem
-}
-
 /* Basscss Responsive White Space */
 
 @media (min-width: 40em) {
@@ -842,9 +828,9 @@ h6, .h6 { font-size: .75rem }
 
 }
 
+.flex { display: flex; }
 
-.flex { display: flex }
-
+.flex-row { flex-direction: row }
 .flex-column  { flex-direction: column }
 .flex-wrap    { flex-wrap: wrap }
 
@@ -855,6 +841,8 @@ h6, .h6 { font-size: .75rem }
 .flex-end      { align-items: flex-end }
 
 .flex-justify  { justify-content: space-between }
+.flex-justify-around { justify-content: space-around }
+.flex-justify-center { justify-content: center }
 
 .flex-first { order: -1 }
 .flex-last  { order: 1024 }
@@ -862,6 +850,31 @@ h6, .h6 { font-size: .75rem }
 .flex-auto { flex: 1 1 auto }
 .flex-grow { flex: 1 0 auto }
 .flex-none { flex: none }
+
+.flex-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  padding-top: 1rem;
+}
+
+/* Smaller devices (phones and tablets, 768px and below) */
+@media only screen and (max-width: 768px) {
+  .flex-icon-container { min-width: 100vw }
+}
+
+/* Larger devices (laptops and desktops, 768px and above) */
+@media only screen and (min-width: 768px) {
+  .flex-icon-container { min-width: 10vw }
+}
+
+.flex-icon-container img {
+  width: auto;
+  height: 50%;
+  padding: 0.5rem; 
+}
 
 .flex > div { box-sizing: border-box }
 @media (min-width: 40em) {
@@ -874,9 +887,8 @@ h6, .h6 { font-size: .75rem }
 }
 @media (min-width: 64em) {
   .lg-flex { display: flex }
-  .lg-flex > div { box-sizing: border-box }
+  .lg-flex > div { box-sizing: border-box }`
 }
-
 
 body {
   color: #111;
