@@ -17,12 +17,34 @@ prep-time: 40 mins
 cooking-time: 30 mins
 servings: 4
 
-ingredients:
-- 225g flank steak, sliced thinly against the grain
-- "Marinade: 3 tsp dark soy sauce, 4 tsp peanut oil, 2 tsp cornstarch"
-- "Bitter Melon: 2 medium-sized bitter melon, seeded and cut into 1cm slices, 2 tsp salt"
-- "Sauce: 4 tsp oyster sauce, 3 tsp light soy sauce, 2 tsp dark soy sauce, 2 tsp sugar, 1 tsp black pepper"
-- "Stir Fry - mix this in a small bowl: 2 Tb peanut oil - separated, 2 large garlic cloves - chopped, 3 slices of garlic - chopped, 2 Tb black bean sauce or fermented black beans - soaked in hot water for 1 minute, drained and mashed., 1 tsp sugar, 4 tsp Shaoxing wine"
+ingredients-subheaders:
+- subheader: Beef
+  ingredients: 
+  - 225g flank steak, sliced thinly against the grain
+- subheader: Marinade
+  ingredients: 
+  - 3 tsp dark soy sauce
+  - 4 tsp peanut oil
+  - 2 tsp cornstarch
+- subheader: Bittermelon
+  ingredients: 
+  - 2 medium-sized bitter melon, seeded and cut into 1cm slices
+  - 2 tsp salt
+- subheader: Sauce
+  ingredients: 
+  - 4 tsp oyster sauce
+  - 3 tsp light soy sauce
+  - 2 tsp dark soy sauce
+  - 2 tsp sugar
+  - 1 tsp black pepper
+- subheader: Stir Fry (mix in a small bowl)
+  ingredients: 
+  - 2 tbsp peanut oil - separated
+  - 2 large garlic cloves - chopped
+  - 3 slices of garlic - chopped
+  - 2 Tb black bean sauce or fermented black beans - soaked in hot water for 1 minute, drained and mashed
+  - 1 tsp sugar
+  - 4 tsp Shaoxing wine
 
 instructions:
 - Combine the beef and marinade ingredients in a bowl. Mix until the beef is fully coated. Set aside for it to marinade for 15 minutes
