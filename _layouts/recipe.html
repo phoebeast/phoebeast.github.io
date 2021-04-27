@@ -112,21 +112,45 @@ layout: default
             {% endfor %}
             {% endif %}
 
-
-          
         </div>
      
-      <div class="col-directions sm-col-6 lg-col-6">
-         <h3 class="grey mt0 mb2 xs-center">INSTRUCTIONS</h4>
-         <br>
-         <ul class="checklist" itemprop="recipeInstructions">
-             {% for instruction in page.instructions %}
-             <li>{{ instruction | markdownify }}</li>
-             {% endfor %}
-            </ul>
-        </div>
+        <div class="clearfix mt3 mb3">
 
-    </div>
+          <div class="col-directions sm-col-6 lg-col-6 ">
+          <h3 class="grey mt0 mb2 xs-center">INSTRUCTIONS</h4>
+            <br>
+              {% if page.instructions %}
+              
+              <ul class="checklist" itemprop="instructions">
+                  <!-- list instructions that make up recipe -->
+                  {% for instruction in page.instructions %}
+                  <li itemprop="recipeInstructions">{{ instruction | markdownify }}</li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+    
+              {% if page.instructions-subheaders %}
+    
+                {% if page.instructions-nosubheaders %}
+                  <ul class="checklist" itemprop="instructions-noheader">
+                    {% for instruction in page.instructions-nosubheaders %}
+                    <li itemprop="recipeInstructions">{{ instruction | markdownify }}</li>
+                    {% endfor %}
+                    <br>
+                {% endif %}
+    
+                {% for group in page.instructions-subheaders %}
+                <h4>{{ group.subheader }}</h4>
+                <ul class="checklist" itemprop="instructions-headers">
+                  {% for instruction in group.instructions %}
+                  <li itemprop="recipeInstructions">{{ instruction | markdownify }}</li>
+                  {% endfor %}
+                </ul>
+                <br>
+                {% endfor %}
+                {% endif %}
+    
+            </div>
 
       <!-- call up recipe notes -->
   {% if page.notes %}
