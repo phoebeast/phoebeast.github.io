@@ -40,16 +40,19 @@ ingredients-subheaders:
   - 1 tsp ground cinnamon (or 1 cinnamon stick)
   - 4 hard boiled eggs
 
-instructions:
-- Combine the beef and marinade ingredients in a bowl. Mix until the beef is fully coated. Set aside for it to marinade for 15 minutes
-- Cut the bitter melon length-wise and scoop out the seeds with the "white sponge" attached to it. Slice the bitter melon into half-moon shape so it will cook evenly and won't fall apart. Sprinkle salt over it and toss with your hand until it is coated well. Let it sit for 10 minutes. Rinse off the salt. Blanch the bitter melon in boiling water for 1 minute. Drain out the hot water and rinse it under cold tap water to stop the cooking. Drain and place the bitter melon into a bowl
-- Pour peanut oil in a saucepan and heat over medium heat until hot. Add the garlic and black bean sauce, then stir for 30 seconds to release the fragrance. Lower the heat if the black bean sauce starts to burn
-- Add the bitter melon and sugar. Stir and cook for another minute. Transfer everything to a big bowl and set side
-- Add more oil into the saucepan along with the ginger. Cook and stir for 30 seconds
-- Turn to medium-high heat and add the marinated steak. Let it cook undisturbed for 1 minute or until the bottom is browned. Flip the meat and cook until the other side is browned. It is okay if the inside of the beef is still slightly pink
-- Pour in the wine, add the sauce and stir, until it slightly thickens
-- Add back the cooked bitter melon. Stir fry until the sauce reaches the desired consistency and everything is evenly coated
-- Transfer everything to a big bowl and serve over steamed rice
+instructions-subheaders:
+- subheader: Preparation
+  instructions:
+  - Add the dried shiitake mushrooms into a bowl and pour 1 cup of boiling water. Rehydrate for at least 20 minutes or until the mushrooms turn tender throughout. Once rehydrated, remove the shiitakes from their soaking liquid and squeeze out extra water. Slice them into 1cm strips and reserve the soaking liquid
+  - Cut the pork belly into thin slices about 1/2cm thick. Transfer the pork belly into a medium-sized bowl. Add the Shaoxing wine and dark soy sauce. Mix well. Let marinate for 20-30 minutes
+  - Hard boil 4 eggs and run the cooked eggs under cold water to stop the cooking. Peel the eggs
+- subheader: Braise the pork
+  instructions:
+  - In an oiled pan on medium heat, add the marinated pork belly. Stir fry until the meat is lightly browned
+  - Pour in the Shaoxing wine, soy sauce, dark soy sauce, sugar, star anise, cinnamon, crispy shallots and shiitake mushrooms. Stir fry for 30 seconds, until everything is mixed together and well coated
+  - Add the cup of mushroom soaking liquid (do not add the sediments) and 1 cup of water
+  - Bring the pan to a boil then reduce to low heat. Simmer until the meat is tender and the liquid is reduced to a thin sauce, for about an hour. In the last half-hour, add in the boiled eggs and intermittently turn them over
+  - Once the pork turns tender and the sauce has thickened, remove the pot from the heat. Serve over steamed rice with blanched buk choy
 
 notes:
 - Make sure to check throughout the braising process, as it can burn if you leave it for too long!
