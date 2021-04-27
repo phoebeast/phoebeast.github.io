@@ -17,6 +17,9 @@ prep-time: 40 mins
 cooking-time: 30 mins
 servings: 4
 
+ingredients-nosubheaders:
+- 225g flank steak, sliced thinly against the grain
+
 ingredients-subheaders:
 - subheader: Beef
   ingredients: 
