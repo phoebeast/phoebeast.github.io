@@ -18,36 +18,27 @@ cooking-time: 60 mins
 servings: 4
 
 ingredients-nosubheaders:
-- 225g flank steak, sliced thinly against the grain
+- 8 dried shiitake mushrooms
+- 1 bunch of buk choy, blanched
 
 ingredients-subheaders:
-- subheader: Beef
+- subheader: Meat Marinade
   ingredients: 
-  - 225g flank steak, sliced thinly against the grain
-- subheader: Marinade
+  - 450g pork belly, cut into thin strips
+  - 2 tsp Shaoxing wine
+  - 1 tsp dark soy sauce
+- subheader: Braising
   ingredients: 
-  - 3 tsp dark soy sauce
-  - 4 tsp peanut oil
-  - 2 tsp cornstarch
-- subheader: Bittermelon
-  ingredients: 
-  - 2 medium-sized bitter melon, seeded and cut into 1cm slices
-  - 2 tsp salt
-- subheader: Sauce
-  ingredients: 
-  - 4 tsp oyster sauce
-  - 3 tsp light soy sauce
-  - 2 tsp dark soy sauce
-  - 2 tsp sugar
-  - 1 tsp black pepper
-- subheader: Stir Fry (mix in a small bowl)
-  ingredients: 
-  - 2 tbsp peanut oil - separated
-  - 2 large garlic cloves - chopped
-  - 3 slices of garlic - chopped
-  - 2 Tb black bean sauce or fermented black beans - soaked in hot water for 1 minute, drained and mashed
-  - 1 tsp sugar
-  - 4 tsp Shaoxing wine
+  - 8 dried shiitake mushrooms
+  - 1 Tb crispy shallots
+  - 2 Tb Shaoxing wine
+  - 2 Tb soy sauce
+  - 2 garlic cloves, chopped
+  - 1 Tb dark soy sauce
+  - 1 Tb white sugar (or rock sugar)
+  - 2 star anise pods
+  - 1 tsp ground cinnamon (or 1 cinnamon stick)
+  - 4 hard boiled eggs
 
 instructions:
 - Combine the beef and marinade ingredients in a bowl. Mix until the beef is fully coated. Set aside for it to marinade for 15 minutes
