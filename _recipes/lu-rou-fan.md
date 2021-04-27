@@ -17,7 +17,7 @@ prep-time: 20 mins
 cooking-time: 60 mins
 servings: 4
 
-ingredients-nosubheader:
+ingredients-nosubheaders:
 - 8 dried shiitake mushrooms
 - 1 bunch of buk choy, blanched
 
@@ -47,6 +47,7 @@ instructions-subheaders:
   - Cut the pork belly into thin slices about 1/2cm thick. Transfer the pork belly into a medium-sized bowl. Add the Shaoxing wine and dark soy sauce. Mix well. Let marinate for 20-30 minutes
   - Hard boil 4 eggs and run the cooked eggs under cold water to stop the cooking. Peel the eggs
 - subheader: Braise the pork
+  instructions:
   - In an oiled pan on medium heat, add the marinated pork belly. Stir fry until the meat is lightly browned
   - Pour in the Shaoxing wine, soy sauce, dark soy sauce, sugar, star anise, cinnamon, crispy shallots and shiitake mushrooms. Stir fry for 30 seconds, until everything is mixed together and well coated
   - Add the cup of mushroom soaking liquid (do not add the sediments) and 1 cup of water
