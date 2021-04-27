@@ -52,6 +52,6 @@ instructions:
 - Transfer everything to a big bowl and serve over steamed rice
 
 notes:
-- Adding salt to the bitter melon will extract some of the bitter juice from the bitter melon. Blanching it in boiling water is also done to further reduce the bitterness
+- Make sure to check throughout the braising process, as it can burn if you leave it for too long!
 
 ---
