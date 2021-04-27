@@ -17,8 +17,9 @@ prep-time: 20 mins
 cooking-time: 60 mins
 servings: 4
 
-ingredients-subheaders:
+ingredients-nosubheader:
 - 8 dried shiitake mushrooms
+ingredients-subheaders:
 - subheader: Meat Marinade
   ingredients: 
   - 450g pork belly, cut into thin strips
@@ -26,32 +27,16 @@ ingredients-subheaders:
   - 1 tsp dark soy sauce
 - subheader: Braising
   ingredients: 
+  - 8 dried shiitake mushrooms
+  - 1 Tb crispy shallots
   - 2 Tb Shaoxing wine
   - 2 Tb soy sauce
+  - 2 garlic cloves, chopped
   - 1 Tb dark soy sauce
   - 1 Tb white sugar (or rock sugar)
   - 2 star anise pods
   - 1 tsp ground cinnamon (or 1 cinnamon stick)
   - 4 hard boiled eggs
-- subheader: Bittermelon
-  ingredients: 
-  - 2 medium-sized bitter melon, seeded and cut into 1cm slices
-  - 2 tsp salt
-- subheader: Sauce
-  ingredients: 
-  - 4 tsp oyster sauce
-  - 3 tsp light soy sauce
-  - 2 tsp dark soy sauce
-  - 2 tsp sugar
-  - 1 tsp black pepper
-- subheader: Stir Fry (mix in a small bowl)
-  ingredients: 
-  - 2 tbsp peanut oil - separated
-  - 2 large garlic cloves - chopped
-  - 3 slices of garlic - chopped
-  - 2 Tb black bean sauce or fermented black beans - soaked in hot water for 1 minute, drained and mashed
-  - 1 tsp sugar
-  - 4 tsp Shaoxing wine
 
 instructions:
 - Combine the beef and marinade ingredients in a bowl. Mix until the beef is fully coated. Set aside for it to marinade for 15 minutes
