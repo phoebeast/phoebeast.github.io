@@ -9,12 +9,12 @@ imagecredit:
 imagesource: 
 
 originalcredit: Omnivore Cookbook
-originalurl: https://omnivorescookbook.com/beef-with-bitter-melon/
+originalurl: https://omnivorescookbook.com/lu-rou-fan/
 
-tags: dinner, bitter melon, beef
+tags: dinner, Taiwanese, pork belly, egg
 
-prep-time: 40 mins
-cooking-time: 30 mins
+prep-time: 20 mins
+cooking-time: 60 mins
 servings: 4
 
 ingredients-nosubheaders:
