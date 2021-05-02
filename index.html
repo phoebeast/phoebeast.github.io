@@ -6,16 +6,21 @@ layout: default
 
     <div class="recipes xs-px1 xs-mt2">
       <div class="clearfix">
-      {% assign sorted = site.recipes | sort:"title" %}
-      {% for post in sorted %}
-  
+        {% assign sorted = site.recipes | sort:"title" %}
+        {% for post in sorted %}
+
         <div class="sm-col sm-col-6 md-col-6 lg-col-3 xs-px1 xs-mb2">
-            <a class="block relative bg-blue" href="{{ post.url | prepend: site.baseurl }}">
-              <div class="image ratio bg-cover"{% for image in post.image %} style="background-image:url({{site.baseurl}}/assets/images/{{ image }});"{% endfor %}></div>
-              <h1 class="title p2 m0 absolute bold white bottom-0 left-0">{{ post.title }}</h1>
-            </a>
+
+          <a class="block card relative black" href="{{ post.url | prepend: site.baseurl }}">
+            <div class="image ratio bg-cover" style="background-image:url({{ site.baseurl }}/assets/images/{{ post.image }});"></div>
+            <div class="px3 py1">
+              <h2>{{ post.title }}</h2>
+            </div>
+          </a>
+
         </div>
-      {% endfor %}
-     </div>
+
+        {% endfor %}
+      </div>
     </div>
 </div>
