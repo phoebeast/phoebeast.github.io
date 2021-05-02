@@ -184,7 +184,12 @@ h6, .h6 { font-size: .75rem }
 }
 
 .inline       { display: inline }
-.block        { display: block }
+.block        { 
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+ }
 .inline-block { display: inline-block }
 
 .overflow-hidden { overflow: hidden }
@@ -830,6 +835,15 @@ h6, .h6 { font-size: .75rem }
 
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card h2 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
 .flex { display: flex; }
 
 .flex-row { flex-direction: row }
@@ -852,6 +866,16 @@ h6, .h6 { font-size: .75rem }
 .flex-auto { flex: 1 1 auto }
 .flex-grow { flex: 1 0 auto }
 .flex-none { flex: none }
+
+.flex-homepage-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-homepage-card img {
+  max-width: 100%;
+  object-fit: cover;
+}
 
 .flex-icon-container {
   display: flex;
