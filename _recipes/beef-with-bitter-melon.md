@@ -1,7 +1,7 @@
 ---
 
 layout: recipe
-title:  "Beef with Bitter Melon (in progress)"
+title:  "Beef with Bitter Melon"
 permalink: /recipes/beef-with-bitter-melon/
 
 image: beef-with-bitter-melon.jpg
