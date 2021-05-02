@@ -17,7 +17,7 @@ prep-time: 10 mins
 cooking-time: 5 mins
 servings: 1
 
-ingredients-nosubheaders:
+ingredients:
 - 1/4 can of corned beef
 - 1 egg
 - 2 slices of bread, crust removed
